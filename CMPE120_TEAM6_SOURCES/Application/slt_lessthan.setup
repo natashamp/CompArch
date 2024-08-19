@@ -1,0 +1,15 @@
+# From Slides
+#int slt(int g, h)
+# {
+#   int f;
+# if g < h:
+#     f = 1
+# else
+#     f = 0
+#}
+#Demo for Register Addressing Mode 
+#slt $v0, $a0, $a1
+#using addi to create values for $a0 and $a1 where the $a0 is less than $a1
+addi $a0, $0, 5
+addi $a1, $0, 6
+

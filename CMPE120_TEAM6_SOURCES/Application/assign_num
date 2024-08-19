@@ -1,0 +1,3 @@
+#We are assigning the value 50 to the register $a0
+#this is an example of immediate addressing mode
+addi $a0, $0, 50

@@ -1,0 +1,8 @@
+# From Slides
+#int and(int g, h)
+# {
+#   int f;
+#   f = g&h;
+#}
+#Demo for Register Addressing Mode 
+and $v0, $a0, $a1

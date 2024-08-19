@@ -1,0 +1,10 @@
+# From Slides
+#int and(int g, h)
+# {
+#   int f;
+#   f = g&h;
+#}
+#and $v0, $a0, $a1
+#Setting the values to be bitwise anded in the setup file
+addi $a0, $0, 5
+addi $a1, $0, 7

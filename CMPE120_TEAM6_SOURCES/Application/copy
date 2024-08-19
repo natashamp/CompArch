@@ -1,0 +1,8 @@
+# Copy a to b
+#void copy(int *b, int *a)
+#{
+#    *b = *a;
+#}
+# Copy value from address $a0 to address $a1
+lw $t0, 0($a0)
+sw $t0, 0($a1)
